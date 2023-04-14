@@ -8,7 +8,7 @@ int i; // Index of array element
 void input() {
 	while (true)
 	{
-		cout << "Enter the number og elements in the array : ";
+		cout << "Enter the number of elements in the array : ";
 		cin >> n;
 		if ((n > 0) && (n <= 20))
 			break;
@@ -19,7 +19,7 @@ void input() {
 	// Accept array elements
 	cout << "\n====================\n";
 	cout << "Enter array elements\n";
-	cout << "\n====================\n";
+	cout << "====================\n";
 	for (i = 0; i < n; i++) {
 		cout << "<" << (i + 1) << ">";
 		cin >> arr[i];
